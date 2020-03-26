@@ -6,3 +6,11 @@ c:\Dev\Src\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.0\eBlocks.As
 c:\Dev\Src\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.0\eBlocks.Assessment.Models.AssemblyInfo.cs
 c:\Dev\Src\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.0\eBlocks.Assessment.Models.dll
 c:\Dev\Src\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.0\eBlocks.Assessment.Models.pdb
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.Models\bin\Debug\netstandard2.0\eBlocks.Assessment.Models.deps.json
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.Models\bin\Debug\netstandard2.0\eBlocks.Assessment.Models.dll
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.Models\bin\Debug\netstandard2.0\eBlocks.Assessment.Models.pdb
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.0\eBlocks.Assessment.Models.csprojAssemblyReference.cache
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.0\eBlocks.Assessment.Models.AssemblyInfoInputs.cache
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.0\eBlocks.Assessment.Models.AssemblyInfo.cs
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.0\eBlocks.Assessment.Models.dll
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.0\eBlocks.Assessment.Models.pdb

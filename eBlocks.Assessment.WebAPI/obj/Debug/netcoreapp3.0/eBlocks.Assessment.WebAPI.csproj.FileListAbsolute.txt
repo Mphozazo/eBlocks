@@ -27,3 +27,11 @@ c:\Dev\Src\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\eBlocks.Ass
 c:\Dev\Src\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\eBlocks.Assessment.WebAPI.csproj.CopyComplete
 c:\Dev\Src\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\eBlocks.Assessment.WebAPI.dll
 c:\Dev\Src\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\eBlocks.Assessment.WebAPI.pdb
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\eBlocks.Assessment.WebAPI.csprojAssemblyReference.cache
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\staticwebassets\eBlocks.Assessment.WebAPI.StaticWebAssets.Manifest.cache
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\staticwebassets\eBlocks.Assessment.WebAPI.StaticWebAssets.xml
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\eBlocks.Assessment.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\eBlocks.Assessment.WebAPI.AssemblyInfoInputs.cache
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\eBlocks.Assessment.WebAPI.AssemblyInfo.cs
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\eBlocks.Assessment.WebAPI.dll
+c:\Dev\Src\eBlocks\eBlocks\eBlocks.Assessment.WebAPI\obj\Debug\netcoreapp3.0\eBlocks.Assessment.WebAPI.pdb

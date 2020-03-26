@@ -5189,11 +5189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
+      "projectUniqueName": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
       "projectName": "eBlocks.Assessment.Models",
-      "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
+      "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
       "packagesPath": "C:\\Users\\walter_heisi\\.nuget\\packages\\",
-      "outputPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\obj\\",
+      "outputPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

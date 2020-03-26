@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Dev\\Src\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj": {}
+    "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj": {}
   },
   "projects": {
-    "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+    "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
+        "projectUniqueName": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
         "projectName": "eBlocks.Assessment.Models",
-        "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
+        "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
         "packagesPath": "C:\\Users\\walter_heisi\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\obj\\",
+        "outputPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,14 +66,14 @@
         }
       }
     },
-    "c:\\Dev\\Src\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
+    "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev\\Src\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
+        "projectUniqueName": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
         "projectName": "eBlocks.Core",
-        "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
+        "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
         "packagesPath": "C:\\Users\\walter_heisi\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.Core\\obj\\",
+        "outputPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -92,8 +92,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
-                "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
+              "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+                "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "c:\\Dev\\Src\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj": {
+    "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev\\Src\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj",
+        "projectUniqueName": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj",
         "projectName": "eBlocks.xUnitTest.Core",
-        "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj",
+        "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj",
         "packagesPath": "C:\\Users\\walter_heisi\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.xUnitTest.Core\\obj\\",
+        "outputPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.xUnitTest.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -154,11 +154,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
-                "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
+              "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+                "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
               },
-              "c:\\Dev\\Src\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
-                "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj"
+              "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
+                "projectPath": "c:\\Dev\\Src\\eBlocks\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj"
               }
             }
           }
