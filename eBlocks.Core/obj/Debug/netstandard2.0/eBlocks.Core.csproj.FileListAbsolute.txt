@@ -1,0 +1,11 @@
+c:\Dev\Src\eBlocks\eBlocks.Core\bin\Debug\netstandard2.0\eBlocks.Core.deps.json
+c:\Dev\Src\eBlocks\eBlocks.Core\bin\Debug\netstandard2.0\eBlocks.Core.dll
+c:\Dev\Src\eBlocks\eBlocks.Core\bin\Debug\netstandard2.0\eBlocks.Core.pdb
+c:\Dev\Src\eBlocks\eBlocks.Core\bin\Debug\netstandard2.0\eBlocks.Assessment.Models.dll
+c:\Dev\Src\eBlocks\eBlocks.Core\bin\Debug\netstandard2.0\eBlocks.Assessment.Models.pdb
+c:\Dev\Src\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.csprojAssemblyReference.cache
+c:\Dev\Src\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.AssemblyInfoInputs.cache
+c:\Dev\Src\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.AssemblyInfo.cs
+c:\Dev\Src\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.csproj.CopyComplete
+c:\Dev\Src\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.dll
+c:\Dev\Src\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.pdb
