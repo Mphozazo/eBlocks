@@ -9,5 +9,7 @@ namespace eBlocks.Core.Services
         public SupplierRepo(DatabaseSettings _settings) : base(_settings)
         {
         }
+
+        
     }
 }
