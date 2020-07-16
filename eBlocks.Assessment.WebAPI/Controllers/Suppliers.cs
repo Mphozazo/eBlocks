@@ -1,8 +1,7 @@
 using eBlocks.Assessment.Models;
 using eBlocks.Core.Interfaces;
 using eBlocks.Core.Repo.Mongodb;
-using eBlocks.Models;
-using eBlocks.Core.Service;
+using eBlocks.Core.Services;
 
 namespace eBlocks.Assessment.WebAPI.Controllers
 {
@@ -12,9 +11,12 @@ namespace eBlocks.Assessment.WebAPI.Controllers
     /// <summary>
     ///  Supplier API 
     /// </summary>
-    public class SupplierController : ParentController<Supplier,SupplierRepo>
+    public class SupplierController : Base<Supplier,SupplierRepo>
     {
-        public SupplierController(SupplierRepo supplierRepository) base (supplierRepository){ }
+        public SupplierController(SupplierRepo supplierRepository) : base (supplierRepository)
+        { 
+
+        }
 
     }
 }
