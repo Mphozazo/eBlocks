@@ -8,7 +8,6 @@ namespace eBlocks.Core
 
         public string ConnectionStr { get ; set ; }
         public string DatabaseName { get ; set ; }
-
-        public string CollectionName{get;set;}
+        public string CollectionName { get ; set ; }
     }
 }

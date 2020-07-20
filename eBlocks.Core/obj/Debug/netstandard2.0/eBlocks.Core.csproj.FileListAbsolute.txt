@@ -20,3 +20,15 @@ c:\Dev\Src\eBlocks\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.As
 c:\Dev\Src\eBlocks\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.csproj.CopyComplete
 c:\Dev\Src\eBlocks\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.dll
 c:\Dev\Src\eBlocks\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.pdb
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\bin\Debug\netstandard2.0\eBlocks.Core.deps.json
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\bin\Debug\netstandard2.0\eBlocks.Core.dll
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\bin\Debug\netstandard2.0\eBlocks.Core.pdb
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\bin\Debug\netstandard2.0\eBlocks.Assessment.Models.dll
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\bin\Debug\netstandard2.0\eBlocks.Assessment.Models.pdb
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.csprojAssemblyReference.cache
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.AssemblyInfoInputs.cache
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.AssemblyInfo.cs
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.csproj.CoreCompileInputs.cache
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.csproj.CopyComplete
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.dll
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.0\eBlocks.Core.pdb

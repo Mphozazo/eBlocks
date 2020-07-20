@@ -6,5 +6,7 @@ namespace eBlocks.Core.Interfaces
     {
         string ConnectionStr {get;set;}
         string DatabaseName {get;set;}
+
+         string CollectionName { get; set; }
     }
 }

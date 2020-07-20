@@ -8,15 +8,15 @@ using MongoDB.Driver;
 
 namespace eBlocks.Core.Repo.Mongodb
 {
-    public class RepositoryService<TEntity, TMongodbSettings> : IRepository<TEntity>
+    public class RepositoryService<TEntity>: IRepository<TEntity>
     where TEntity : class, IEntity
-    where TMongodbSettings : DatabaseSettings
+    
     {
 
          private readonly IMongoCollection<TEntity> _dbCollection;    
          private IMongoDatabase db;
 
-        public RepositoryService(TMongodbSettings _settings) 
+        public RepositoryService(ISettings _settings) 
         {
             var client = new MongoClient(_settings.ConnectionStr);
                 Db  = client.GetDatabase(_settings.DatabaseName);   

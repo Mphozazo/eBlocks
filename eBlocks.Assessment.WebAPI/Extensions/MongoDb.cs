@@ -1,5 +1,8 @@
+using eBlocks.Core;
 using eBlocks.Core.Services;
 using Microsoft.Extensions.DependencyInjection;
+using eBlocks.Core.Interfaces;
+using eBlocks.Core.Repo.Mongodb;
 
 namespace eBlocks.Assessment.WebAPI.Extensions
 {
@@ -7,11 +10,13 @@ namespace eBlocks.Assessment.WebAPI.Extensions
     {
         public static void AddRepoServices(this IServiceCollection services)
         {
-      
-           services.AddSingleton<SupplierRepo>();
-           services.AddSingleton<ProductRepo>();
-           services.AddSingleton<OrderDetailRepo>();
-           services.AddSingleton<CategoriesRepo>();
+
+            services.AddScoped<ISettings, DatabaseSettings>();
+            services.AddScoped( typeof(IRepository<>),typeof(RepositoryService<>));   
+           services.AddScoped<SupplierRepo>();
+           services.AddScoped<ProductRepo>();
+           services.AddScoped<OrderDetailRepo>();
+           services.AddScoped<CategoriesRepo>();
             
 
         }

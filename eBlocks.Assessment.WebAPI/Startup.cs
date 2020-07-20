@@ -1,20 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using eBlocks.Core;
-using eBlocks.Core.Repo.Mongodb;
 using eBlocks.Core.Interfaces;
 using eBlocks.Assessment.WebAPI.Extensions;
+using Microsoft.OpenApi.Models;
 
 namespace eBlocks.Assessment.WebAPI
 {
@@ -31,16 +24,21 @@ namespace eBlocks.Assessment.WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
              services.Configure<DatabaseSettings>(
-                Configuration.GetSection(nameof(DatabaseSettings))
+                Configuration.GetSection("DBSettings")
             ); 
 
             services.AddSingleton<ISettings>(sp =>
              sp.GetRequiredService<IOptions<DatabaseSettings>>().Value
             );
-        
+
+            
+
             services.AddRepoServices();
             services.AddControllers();
-           
+
+            services.AddSwaggerGen(c =>
+                c.SwaggerDoc(name: "V1", new OpenApiInfo {Title = "My API", Description = "My first",Version = "V1"}));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +48,10 @@ namespace eBlocks.Assessment.WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c => c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "My API V1"));
 
             app.UseHttpsRedirection();
 
