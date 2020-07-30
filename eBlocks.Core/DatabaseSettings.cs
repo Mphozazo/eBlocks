@@ -2,12 +2,13 @@ using eBlocks.Core.Interfaces;
 
 namespace eBlocks.Core
 {
-    public class DatabaseSettings : ISettings
+    public class DatabaseSettings : IDatabaseSettings 
     {
- 
-
-        public string ConnectionStr { get ; set ; }
+        public string Connection { get ; set ; }
         public string DatabaseName { get ; set ; }
-        public string CollectionName { get ; set ; }
+        public string Username { get; set; }
+        public string Password { get;  set ; }
+
+        public string ConnString => $"mongodb://{Username}:{Password}@{Connection}/{DatabaseName}?authSource = {DatabaseName}" ;
     }
 }

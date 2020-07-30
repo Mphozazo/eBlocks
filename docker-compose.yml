@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  eblocks.assessment.webapi:
+    image: ${DOCKER_REGISTRY-}eblocksassessmentwebapi
+    build:
+      context: .
+      dockerfile: eBlocks.Assessment.WebAPI\Dockerfile
+  mongo:
+    container_name: mongo-on-docker
+    image: mongo  
+    environment:
+      MONGO_INITDB_ROOT_DATABASE: eblocks
+      MONGO_INITDB_ROOT_USERNAME: eblocksusr
+      MONGO_INITDB_ROOT_PASSWORD: eblockspassword
+     volumes:
+      - mongodb_data_container:/data/db
+   ports:
+      - "27888:27017"
+   

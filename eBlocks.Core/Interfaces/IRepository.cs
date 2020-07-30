@@ -11,11 +11,11 @@ namespace eBlocks.Core.Interfaces
         Task<List<T>> FindByCondition(Expression<Func<T, bool>> expression);
         Task<List<T>> GetAll(); 
        
-        Task<bool> Add(T Entity);
-        Task<bool> Delete(string Id);
+        Task<bool> Add(T entity);
+        Task<bool> Delete(string id);
 
-        Task<bool> Delete(T Entity);
-        Task<bool> Update(T Entity);
+        Task<bool> Delete(T entity);
+        Task<bool> Update(T entity);
         Task<T> FindByName(string name);      
 
         Task<T> FindById(string id);      

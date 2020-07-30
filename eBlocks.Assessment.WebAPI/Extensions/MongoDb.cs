@@ -11,12 +11,12 @@ namespace eBlocks.Assessment.WebAPI.Extensions
         public static void AddRepoServices(this IServiceCollection services)
         {
 
-            services.AddScoped<ISettings, DatabaseSettings>();
-            services.AddScoped( typeof(IRepository<>),typeof(RepositoryService<>));   
-           services.AddScoped<SupplierRepo>();
-           services.AddScoped<ProductRepo>();
-           services.AddScoped<OrderDetailRepo>();
-           services.AddScoped<CategoriesRepo>();
+            services.AddScoped(typeof(IRepository<>),typeof(RepositoryService<>));
+            //services.AddSingleton<IDatabaseSettings, DatabaseSettings>();
+            services.AddScoped<SupplierRepo>();
+            services.AddScoped<ProductRepo>();
+            services.AddScoped<OrderDetailRepo>();
+            services.AddScoped<CategoriesRepo>();
             
 
         }

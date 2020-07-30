@@ -10,28 +10,29 @@ namespace eBlocks.Assessment.WebAPI.Controllers
 {
     [Route("api/controller")]
     [ApiController]
-    public abstract class Base<Entity, TRepository> : ControllerBase
-     where Entity : class, IEntity
-     where TRepository : IRepository<Entity>
+    public abstract class Base<TEntity, TRepository> : ControllerBase
+     where TEntity : class, IEntity
+     where TRepository : IRepository<TEntity>
     {
-        private TRepository _repository;
-       public Base(TRepository _repository)
+        public Base(TRepository repository)
         {
-            Repository = _repository; 
+            Repository = repository;
         }
 
-        public TRepository Repository { get => _repository; set => _repository = value; }
+        public TRepository Repository { get; set; }
 
-        /// <summary>
-        /// Get a list of all data .
-        /// </summary>
-        /// <returns></returns>
+        // <summary>
+        // Get a list of all data.
+        // </summary>
+        // <returns></returns>
         [HttpGet]
-        public async Task<ActionResult<List<Entity>>> GetTask()
+        public async Task<ActionResult<List<TEntity>>> GetTask()
         {
-             try
+            try
             {
-                return Ok(await Repository.GetAll());
+                var results = await Repository.GetAll();
+
+                return Ok(results);
             }
             catch (Exception ex)
             {
@@ -39,13 +40,13 @@ namespace eBlocks.Assessment.WebAPI.Controllers
 
             }
         }
-        /// <summary>
-        /// Get a data based on the reference Id
-        /// </summary>
-        /// <param name="id">Reference Id</param>
-        /// <returns></returns>
+        // <summary>
+        // Get a data based on the reference Id
+        // </summary>
+        // <param name = "id" > Reference Id</param>
+        // <returns></returns>
         [HttpGet("{id}")]
-        public async Task<ActionResult<List<Entity>>> Get(string id)
+        public async Task<ActionResult<List<TEntity>>> Get(string id)
         {
             try
             {
@@ -58,13 +59,13 @@ namespace eBlocks.Assessment.WebAPI.Controllers
             }
         }
 
-        /// <summary>
-        /// Delete the reference Id item
-        /// </summary>
-        /// <param name="id">Reference Id</param>
-        /// <returns></returns>
+        // <summary>
+        // Delete the reference Id item
+        // </summary>
+        // <param name = "id" > Reference Id</param>
+        // <returns></returns>
         [HttpDelete("{id}")]
-        public async Task<ActionResult<List<Entity>>> Delete(string id)
+        public async Task<ActionResult<List<TEntity>>> Delete(string id)
         {
             try
             {
@@ -77,13 +78,13 @@ namespace eBlocks.Assessment.WebAPI.Controllers
             }
         }
 
-        /// <summary>
-        /// Insert new Data.
-        /// </summary>
-        /// <param name="data">Data to be Added</param>
-        /// <returns></returns>
+        // <summary>
+        // Insert new Data.
+        // </summary>
+        // <param name = "data" > Data to be Added</param>
+        // <returns></returns>
         [HttpPost]
-        public async Task<ActionResult<bool>> Post( Entity data)
+        public async Task<ActionResult<bool>> Post(TEntity data)
         {
             try
             {
@@ -97,23 +98,23 @@ namespace eBlocks.Assessment.WebAPI.Controllers
             }
         }
 
-        /// <summary>
-        /// Update the current item.
-        /// </summary>
-        /// <param name="data">Updated Data </param>
-        /// <returns></returns>
+        // <summary>
+        // Update the current item.
+        // </summary>
+        // <param name = "data" > Updated Data</param>
+        // <returns></returns>
         [HttpPut("{id}")]
-        public async Task<ActionResult<bool>> Put([FromBody]Entity data)
+        public async Task<ActionResult<bool>> Put([FromBody] TEntity data)
         {
             try
             {
                 await Repository.Update(data);
                 return Ok(true);
             }
-            catch (Exception ex )
+            catch (Exception ex)
             {
 
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message); 
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
     }

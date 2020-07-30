@@ -1,8 +1,10 @@
 using System;
+using eBlocks.Assessment.Models.Attributes;
 using eBlocks.Assessment.Models.Interface;
 
 namespace eBlocks.Assessment.Models
 {
+    [BsonCollection("Products")]
     public class Product : IEntity
     {
         public string Id { get ;set;}

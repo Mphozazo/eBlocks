@@ -1,3 +1,6 @@
+using System;
+using System.IO;
+using System.Reflection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,21 +26,28 @@ namespace eBlocks.Assessment.WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-             services.Configure<DatabaseSettings>(
-                Configuration.GetSection("DBSettings")
-            ); 
-
-            services.AddSingleton<ISettings>(sp =>
-             sp.GetRequiredService<IOptions<DatabaseSettings>>().Value
-            );
-
-            
-
-            services.AddRepoServices();
             services.AddControllers();
 
+            services.Configure<DatabaseSettings>
+               (options => Configuration.GetSection("DatabaseSettings").Bind(options));
+           
+
+           services.AddSingleton<IDatabaseSettings>(sp =>
+            sp.GetRequiredService<IOptions<DatabaseSettings>>().Value
+           );
+  
+           services.AddRepoServices();
+
+
+            var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+            var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
             services.AddSwaggerGen(c =>
-                c.SwaggerDoc(name: "V1", new OpenApiInfo {Title = "My API", Description = "My first",Version = "V1"}));
+                c.SwaggerDoc(name: "v1", new OpenApiInfo
+                {
+                    Title = "E-Blocks Assessment ",
+                    Description = "E-Blocks Assessment Service API -  Provides Mongodb services .",
+                    Version = "v1",
+                }));
 
         }
 
@@ -51,7 +61,9 @@ namespace eBlocks.Assessment.WebAPI
 
             app.UseSwagger();
 
-            app.UseSwaggerUI(c => c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "My API V1"));
+            app.UseSwaggerUI(c => 
+
+                c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "E-blocks Assessment API v1"));
 
             app.UseHttpsRedirection();
 

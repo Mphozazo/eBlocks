@@ -1,9 +1,11 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using eBlocks.Assessment.Models.Interface;
+using eBlocks.Assessment.Models.Attributes;
 
 namespace eBlocks.Assessment.Models
 {
+    [BsonCollection("OrderDetails")]
     public class OrderDetails : IEntity
     {
         public string Id { get ; set ; }

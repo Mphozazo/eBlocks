@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj": {}
+    "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+    "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
         "projectName": "eBlocks.Assessment.Models",
-        "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
+        "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
         "packagesPath": "C:\\Users\\Walterh-laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\obj\\",
+        "outputPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,7 +44,7 @@
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.10.2, )"
+              "version": "[2.11.0-beta2, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj": {
+    "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj",
         "projectName": "eBlocks.Assessment.WebAPI",
-        "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj",
+        "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj",
         "packagesPath": "C:\\Users\\Walterh-laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -94,11 +94,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
-                "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
+              "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+                "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
               },
-              "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
-                "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj"
+              "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
+                "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj"
               }
             }
           }
@@ -112,6 +112,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.5.1, )"
@@ -157,14 +161,14 @@
         }
       }
     },
-    "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
+    "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
         "projectName": "eBlocks.Core",
-        "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
+        "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
         "packagesPath": "C:\\Users\\Walterh-laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\obj\\",
+        "outputPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -184,8 +188,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
-                "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
+              "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+                "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
               }
             }
           }
