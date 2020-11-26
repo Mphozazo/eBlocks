@@ -46,11 +46,18 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         // <param name = "id" > Reference Id</param>
         // <returns></returns>
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<List<TEntity>>> Get(string id)
         {
             try
             {
-                return Ok(await Repository.FindById(id));
+                var _results = await Repository.FindById(id);
+                if (_results is null)
+                    return StatusCode(StatusCodes.Status404NotFound ,$"{id} Not found .");
+                else 
+                return Ok();
             }
             catch (Exception ex)
             {
