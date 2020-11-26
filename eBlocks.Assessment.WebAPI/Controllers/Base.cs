@@ -59,6 +59,27 @@ namespace eBlocks.Assessment.WebAPI.Controllers
             }
         }
 
+        [HttpGet("ByName")]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<List<TEntity>>> ByName(string name)
+        {
+            try
+            {
+                var _results = await Repository.FindByName(name);
+                if (_results is null)
+                    return StatusCode(StatusCodes.Status404NotFound, $"{name} not found.");
+                else
+                    return Ok(_results);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+
+            }
+        }
+
         // <summary>
         // Delete the reference Id item
         // </summary>

@@ -1,0 +1,12 @@
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\bin\Debug\netstandard2.1\eBlocks.Core.deps.json
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\bin\Debug\netstandard2.1\eBlocks.Core.dll
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\bin\Debug\netstandard2.1\eBlocks.Core.pdb
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\bin\Debug\netstandard2.1\eBlocks.Assessment.Models.dll
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\bin\Debug\netstandard2.1\eBlocks.Assessment.Models.pdb
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.1\eBlocks.Core.csprojAssemblyReference.cache
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.1\eBlocks.Core.AssemblyInfoInputs.cache
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.1\eBlocks.Core.AssemblyInfo.cs
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.1\eBlocks.Core.csproj.CoreCompileInputs.cache
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.1\eBlocks.Core.csproj.CopyComplete
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.1\eBlocks.Core.dll
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Core\obj\Debug\netstandard2.1\eBlocks.Core.pdb

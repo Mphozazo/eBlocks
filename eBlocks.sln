@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBlocks.xUnitTest.Core", "e
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBlocks.Assessment.WebAPI", "eBlocks.Assessment.WebAPI\eBlocks.Assessment.WebAPI.csproj", "{8BD50385-2005-4F77-BDC7-84AA33313DE2}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{62CA57FF-481F-459C-92D4-ABE8CD32A848}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{5BACC927-C505-4567-900B-FEF8212566FA}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\..\..\Dev\eBlocks\eblocks.Category.json = ..\..\..\..\..\Dev\eBlocks\eblocks.Category.json
@@ -79,18 +77,6 @@ Global
 		{8BD50385-2005-4F77-BDC7-84AA33313DE2}.Release|x64.Build.0 = Release|Any CPU
 		{8BD50385-2005-4F77-BDC7-84AA33313DE2}.Release|x86.ActiveCfg = Release|Any CPU
 		{8BD50385-2005-4F77-BDC7-84AA33313DE2}.Release|x86.Build.0 = Release|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Debug|x64.Build.0 = Debug|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Debug|x86.Build.0 = Debug|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Release|Any CPU.Build.0 = Release|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Release|x64.ActiveCfg = Release|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Release|x64.Build.0 = Release|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Release|x86.ActiveCfg = Release|Any CPU
-		{62CA57FF-481F-459C-92D4-ABE8CD32A848}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

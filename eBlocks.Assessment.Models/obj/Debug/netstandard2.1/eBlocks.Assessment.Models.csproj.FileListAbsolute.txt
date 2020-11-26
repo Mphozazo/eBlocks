@@ -1,0 +1,8 @@
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\bin\Debug\netstandard2.1\eBlocks.Assessment.Models.deps.json
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\bin\Debug\netstandard2.1\eBlocks.Assessment.Models.dll
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\bin\Debug\netstandard2.1\eBlocks.Assessment.Models.pdb
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.1\eBlocks.Assessment.Models.AssemblyInfoInputs.cache
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.1\eBlocks.Assessment.Models.AssemblyInfo.cs
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.1\eBlocks.Assessment.Models.csproj.CoreCompileInputs.cache
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.1\eBlocks.Assessment.Models.dll
+C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.1\eBlocks.Assessment.Models.pdb
