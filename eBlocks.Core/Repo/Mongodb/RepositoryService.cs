@@ -90,6 +90,7 @@ namespace eBlocks.Core.Repo.Mongodb
            }
         }
 
+
         public async Task<TEntity> FindByName(string name)
         {
             try{
