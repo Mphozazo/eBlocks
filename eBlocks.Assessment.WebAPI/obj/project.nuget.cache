@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QJtM8Mw06jVGiyc/kebsM5HWMMZwTMNFadl5tSxEN6I5IX6BxQJHdZra9RK/uoPzTFVajh0os01D/CC1CrXOfg==",
+  "dgSpecHash": "Z+QxJ8AL7hrjg6+cWzwdzu9icw1Xhokp8TbHoeb51vLqncRe1xr507dQZYJ/QdxHbM8FWdpaqhRN566JBl6f7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Walterh-laptop\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\Walterh-laptop\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

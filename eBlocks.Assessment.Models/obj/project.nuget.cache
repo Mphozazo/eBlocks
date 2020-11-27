@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pL2wKktfUkn9YASV22Drb5leAGn/dAwyRnR0yic1hx8p+zD2w2YtThzX6Zh+eBcICm/Fe2PbZ4WE76YJaTmYMw==",
+  "dgSpecHash": "wwLEOCinSizk3xdDtR/ttxqdKLKahQhmj1JKgug7ULhUshsLBnz+OVkXWWqE4meXtmbdp03D0Lo1zl2ft5CRGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
+  "projectFilePath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Walterh-laptop\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\Walterh-laptop\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

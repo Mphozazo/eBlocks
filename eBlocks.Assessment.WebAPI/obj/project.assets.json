@@ -5102,11 +5102,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj",
       "projectName": "eBlocks.Assessment.WebAPI",
-      "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj",
+      "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.WebAPI\\eBlocks.Assessment.WebAPI.csproj",
       "packagesPath": "C:\\Users\\Walterh-laptop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5127,11 +5127,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
-              "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
+            "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+              "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
             },
-            "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
-              "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj"
+            "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
+              "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj"
             }
           }
         }
