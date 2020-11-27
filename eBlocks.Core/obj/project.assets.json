@@ -4831,11 +4831,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
       "projectName": "eBlocks.Core",
-      "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
+      "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
       "packagesPath": "C:\\Users\\Walterh-laptop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\obj\\",
+      "outputPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -4856,8 +4856,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
-              "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
+            "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+              "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
             }
           }
         }

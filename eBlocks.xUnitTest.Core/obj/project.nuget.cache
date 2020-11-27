@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0gsb5zmH63K0nsgVQlPJ+w/90e6PE6l4v6KuXM5CEVhAhKkAnnrSp2oqIkeIp6zPyJegNlrRalaCcHvC1VlKwg==",
+  "dgSpecHash": "1QnLS3chBHL7Q38tSGh4fZw/vkQPN1/9d8AY8Q8ik/sk/irzrnYJZNlp922FyjGDQtTQDIiZ9zbIezLbu1I4YQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj",
+  "projectFilePath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Walterh-laptop\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\Walterh-laptop\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
