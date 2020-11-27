@@ -26,6 +26,8 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         // </summary>
         // <returns></returns>
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<List<TEntity>>> GetTask()
         {
             try
@@ -93,6 +95,8 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         // <param name = "id" > Reference Id</param>
         // <returns></returns>
         [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<List<TEntity>>> Delete(string id)
         {
             try
@@ -112,6 +116,8 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         // <param name = "data" > Data to be Added</param>
         // <returns></returns>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<bool>> Post(TEntity data)
         {
             try
@@ -132,6 +138,8 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         // <param name = "data" > Updated Data</param>
         // <returns></returns>
         [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<bool>> Put([FromBody] TEntity data)
         {
             try

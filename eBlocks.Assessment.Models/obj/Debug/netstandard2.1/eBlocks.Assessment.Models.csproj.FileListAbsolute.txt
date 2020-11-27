@@ -6,3 +6,4 @@ C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\obj\Debug
 C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.1\eBlocks.Assessment.Models.csproj.CoreCompileInputs.cache
 C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.1\eBlocks.Assessment.Models.dll
 C:\Users\Walterh-laptop\source\repos\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.1\eBlocks.Assessment.Models.pdb
+C:\Users\Walterh-laptop\Source\Repos\eBlocks\eBlocks.Assessment.Models\obj\Debug\netstandard2.1\eBlocks.Assessment.Models.csprojAssemblyReference.cache
