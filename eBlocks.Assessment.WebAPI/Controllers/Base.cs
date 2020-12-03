@@ -98,11 +98,16 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<List<TEntity>>> Delete(string id)
         {
             try
             {
-                return Ok(await Repository.Delete(id));
+                var _results = await Repository.FindById(id);
+                if (_results is null)
+                    return StatusCode(StatusCodes.Status404NotFound, $"{id} Not found . Delete operation won't have effect. ");
+                else 
+                    return Ok(await Repository.Delete(id));
             }
             catch (Exception ex)
             {
@@ -119,12 +124,18 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
         public async Task<ActionResult<bool>> Post(TEntity data)
         {
             try
             {
-                await Repository.Add(data);
-                return Ok(true);
+                if (data is null)
+                    return StatusCode(StatusCodes.Status500InternalServerError, "Entity Data is blank or not provided for.");
+                else
+                {
+                    await Repository.Add(data);
+                    return Ok(true);
+                }
             }
             catch (Exception ex)
             {
@@ -141,12 +152,18 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
         public async Task<ActionResult<bool>> Put([FromBody] TEntity data)
         {
             try
             {
-                await Repository.Update(data);
-                return Ok(true);
+                if (data is null)
+                    return StatusCode(StatusCodes.Status500InternalServerError, "Entity Data is blank or not provided for.");
+                else
+                {
+                    await Repository.Update (data);
+                    return Ok(true);
+                }
             }
             catch (Exception ex)
             {
