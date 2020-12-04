@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj": {}
+    "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+    "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
         "projectName": "eBlocks.Assessment.Models",
-        "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
+        "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj",
         "packagesPath": "C:\\Users\\Walterh-laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\obj\\",
+        "outputPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -64,18 +64,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
+    "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
         "projectName": "eBlocks.Core",
-        "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
+        "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj",
         "packagesPath": "C:\\Users\\Walterh-laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\obj\\",
+        "outputPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -96,8 +96,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
-                "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
+              "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+                "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
               }
             }
           }
@@ -126,18 +126,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj": {
+    "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj",
         "projectName": "eBlocks.xUnitTest.Core",
-        "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj",
+        "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.xUnitTest.Core\\eBlocks.xUnitTest.Core.csproj",
         "packagesPath": "C:\\Users\\Walterh-laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.xUnitTest.Core\\obj\\",
+        "outputPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.xUnitTest.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -158,11 +158,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
-                "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
+              "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj": {
+                "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Assessment.Models\\eBlocks.Assessment.Models.csproj"
               },
-              "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
-                "projectPath": "C:\\Users\\Walterh-laptop\\Source\\Repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj"
+              "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj": {
+                "projectPath": "C:\\Users\\Walterh-laptop\\source\\repos\\eBlocks\\eBlocks.Core\\eBlocks.Core.csproj"
               }
             }
           }
@@ -208,12 +208,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

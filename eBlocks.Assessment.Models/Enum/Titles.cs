@@ -1,5 +1,3 @@
-using System;
-
 namespace eBlocks.Assessment.Models.Enum
 {
     public enum Titles

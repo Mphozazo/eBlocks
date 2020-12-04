@@ -1,4 +1,3 @@
-using System;
 using eBlocks.Assessment.Models;
 using eBlocks.Core.Interfaces;
 using eBlocks.Core.Repo.Mongodb;

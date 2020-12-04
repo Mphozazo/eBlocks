@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/eBlocks.Assessment.Models/bin/Release/netstandard2.1/eBlocks.Assessment.Models.pdb
+/eBlocks.Assessment.Models/bin/Release/netstandard2.1/eBlocks.Assessment.Models.dll
+/eBlocks.Assessment.Models/bin/Release/netstandard2.1/eBlocks.Assessment.Models.deps.json
+/eBlocks.Assessment.Models/obj/Release/netstandard2.1
+/eBlocks.Assessment.WebAPI/bin/Release/netcoreapp3.1
+/eBlocks.Assessment.WebAPI/bin/Debug/netcoreapp3.1
+/eBlocks.Assessment.WebAPI/obj/Release/netcoreapp3.1
+/eBlocks.Core/bin/Release/netstandard2.1
+/eBlocks.Core/obj/Release/netstandard2.1
+/eBlocks.xUnitTest.Core/bin/Release/netcoreapp3.1

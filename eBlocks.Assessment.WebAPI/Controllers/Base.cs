@@ -5,12 +5,15 @@ using eBlocks.Core.Interfaces;
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace eBlocks.Assessment.WebAPI.Controllers
 {
     [Route("api/controller")]
     [ApiController]
+    [AutoValidateAntiforgeryToken]
+    [Authorize( AuthenticationSchemes= "SchemeZA,SchemeRow", Policy="EblocksPolicy")]
     public abstract class Base<TEntity, TRepository> : ControllerBase
      where TEntity : class, IEntity
      where TRepository : IRepository<TEntity>
@@ -29,6 +32,7 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<List<TEntity>>> GetTask()
         {
             try
@@ -51,13 +55,13 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<List<TEntity>>> Get(string id)
         {
             try
             {
-                var _results = await Repository.FindById(id);
-                if (_results is null)
+                var results = await Repository.FindById(id);
+                if (results is null)
                     return StatusCode(StatusCodes.Status404NotFound ,$"{id} Not found .");
                 else 
                 return Ok();
@@ -73,6 +77,7 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<List<TEntity>>> ByName(string name)
         {
             try
@@ -99,6 +104,7 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<List<TEntity>>> Delete(string id)
         {
             try
@@ -125,6 +131,7 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<bool>> Post(TEntity data)
         {
             try
@@ -153,6 +160,7 @@ namespace eBlocks.Assessment.WebAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<bool>> Put([FromBody] TEntity data)
         {
             try

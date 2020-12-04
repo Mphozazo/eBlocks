@@ -1,6 +1,5 @@
 using System;
 using Xunit;
-using eBlocks.Core;
 
 
 namespace eBlocks.xUnitTest.Core.Repo
