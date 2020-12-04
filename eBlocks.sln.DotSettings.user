@@ -8,4 +8,7 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::6316E3FE-5780-460B-9BEC-C2FB791D6BCC::.NETCoreApp,Version=v3.0::eBlocks.xUnitTest.Core.Repo.MongoDbTest.IsDatabaseConnected&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cc74d05e_002D52fd_002D447b_002Dbb10_002D6e2530bfc803/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from MongoDbTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;ProjectFile&gt;6316E3FE-5780-460B-9BEC-C2FB791D6BCC/d:Repo/f:MongoDbTest.cs&lt;/ProjectFile&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
